@@ -37,8 +37,8 @@ import com.oldmee.po.AccessToken;
 
 
 public class WeixinUtil {
-	private static final String APPID = "wx30b3651ab7693b8f";
-	private static final String APPSECRET = "d4624c36b6795d1d99dcf0547af5443d";
+	private static final String APPID = "wxd51ff26fdbdc7df2";
+	private static final String APPSECRET = "fdf5f60cb6b99296dc3be5b8b82fe970";
 	private static final String ACCESS_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET";
 	private static final String UPLOAD_URL = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE";
 	private static final String CREATE_MENU_URL = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=ACCESS_TOKEN";
